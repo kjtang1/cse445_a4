@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<!-- root element is Hotel instead of Hotels -->
+<Hotel xmlns="https://github.com/kjtang1/cse445_a4/Hotels.xsd"
+        xmlns:bs="https://github.com/kjtang1/cse445_a4/Hotels.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://github.com/kjtang1/cse445_a4/Hotels.xsd">
+    <Hotel> <!-- hotel example given in figure 1 -->
+        <!-- missing required name attribute -->
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address>
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+            <NearstAirport>Sky Harbor</NearstAirport>
+        </Address>
+        <Rating>4.2</Rating>
+    </Hotel>
+
+    <Hotel>
+        <Name>Hyatt Place Tempe</Name>
+        <!-- missing phone attribute -->
+        <Address>
+            <Number>601</Number>
+            <Street>E 6th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Moxy</Name>
+        <Phone>480-968-3451</Phone>
+        <Phone>480-869-1543</Phone>
+        <Address>
+            <Number>1333</Number>
+            <Street>S Rural Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        <!-- missing closing tag for Address -->
+        <Rating>4.2</Rating>
+    </Hotel>
+
+    <Hotel>
+        <Name>Hotel Tempest by Wyndham</Name>
+        <Name>Wyndham</Name> <!-- two names provided -->
+        <Phone>480-774-2500</Phone>
+        <Address>
+            <Number>1375</Number>
+            <Street>E University Dr</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+            <NearstAirport>Sky Harbor</NearstAirport>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Embassy Suites by Hilton</Name>
+        <Phone>480-897-7444</Phone>
+        <Address>
+            <Number>4400</Number>
+            <Street>S Rural Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85282</Zip>
+            <NearstAirport>Sky Harbor</NearstAirport>
+        </Address>
+        <Rating>4.1</Rating>
+    </Hotel>
+    
+    <Hotel>
+        <Name>Sonesta Select</Name>
+        <Phone>480-966-2800</Phone>
+        <Phone>480-669-0082</Phone>
+        <Address>
+            <Number>601</Number>
+            <Street>S Ash Ave</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>La Quinta Inn &amp; Suites by Wyndham</Name>
+        <Phone>480-844-8747</Phone>
+        <Address>
+            <Number>902</Number>
+            <Street>W Grove Ave</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85210</Zip>
+        </Address>
+        <Rating>4.0</Rating>
+    </Hotel>
+
+    <Hotel>
+        <Name>Motel 6</Name>
+        <Phone>480-967-8696</Phone>
+        <Address>
+            <Number>513</Number>
+            <Street>W Broadway Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85282</Zip>
+            <NearstAirport>Sky Harbor</NearstAirport>
+        </Address>
+    </Hotel>
+    
+    <Hotel>
+        <Name>Sheraton Mesa Hotel</Name>
+        <Phone>480-664-1221</Phone>
+         <Phone>480-466-1221</Phone>
+        <Address>
+            <Number>860</Number>
+            <Street>N Riverview</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85201</Zip>
+            <NearstAirport>Sky Harbor</NearstAirport>
+        </Address>
+        <Rating>4.3</Rating>
+    </Hotel>
+
+    <Hotel>
+        <Name>Scottdale Parkview Resort</Name>
+        <Phone>480-941-1202</Phone>
+        <Address>
+            <Number>7707</Number>
+            <Street>E McDowell Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85257</Zip>
+        </Address>
+        <Rating>3.8</Rating>
+    </Hotel>
+</Hotel>
