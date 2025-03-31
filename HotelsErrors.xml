@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!-- root element is Hotel instead of Hotels -->
-<Hotel xmlns="https://github.com/kjtang1/cse445_a4/Hotels.xsd"
-        xmlns:bs="https://github.com/kjtang1/cse445_a4/Hotels.xsd"
+<Hotel xmlns="https://kjtang1.github.io/cse445_a4/Hotels.xsd"
+        xmlns:bs="https://kjtang1.github.io/cse445_a4/Hotels.xsd"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://github.com/kjtang1/cse445_a4/Hotels.xsd">
+        xsi:schemaLocation="https://kjtang1.github.io/cse445_a4/Hotels.xsd">
     <Hotel> <!-- hotel example given in figure 1 -->
         <!-- missing required name attribute -->
         <Phone>480-968-8885</Phone>
